@@ -21,7 +21,8 @@ class School
   
   def sort(student_name)
     
-   @roster = @roster[grade].sort |student_name, grade|
+   @roster = @roster[grade].sort 
+   
  end
  @roster
   end
