@@ -23,6 +23,7 @@ class School
     
    @roster = @roster[grade].sort |student_name, grade|
  end
+ @roster
   end
   
 
